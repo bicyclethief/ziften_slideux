@@ -1,0 +1,32 @@
+$bg-color: #5B6378;
+$font-stack: Open Sans Regular, san-serif;
+
+body {
+  background-color: $bg-color;
+}
+
+#main-navbar {
+  .active {
+    a {
+      color: #555;
+    }
+  }
+  a {
+    color: #00AED5;
+  }
+}
+
+#navbar-search {
+  background: url(img/comment-author.gif) no-repeat scroll 7px 7px;
+  padding-left:30px;
+}
+
+#user-menu {
+  a {
+    color: #555;
+  }
+}
+img.nav-logo {
+  width: 56px;
+  height: 30px;
+}
