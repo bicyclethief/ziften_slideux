@@ -92,7 +92,7 @@ gulp.task('watch', function() {
 
 // default task
 gulp.task('default',
-    ['clean', 'lint', 'browserify', 'connect', 'watch']
+    ['clean', 'sass', 'lint', 'browserify', 'connect', 'watch']
 );
 gulp.task('build', function() {
   runSequence(
